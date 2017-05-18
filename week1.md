@@ -49,3 +49,58 @@ Unsupervised Learning은 명확한 정답이 존재하지 않기 때문에 데�
   ▼ Cost Function J(θ0,θ1)의 수식은 아래와 같습니다.
 
   ![](http://cfile22.uf.tistory.com/image/2353904A5916F79D2B4A64)
+
+## 3. Gradient descent algorithm
+
+아래 그림은 입력값 θ0, θ1에 대한 결과값  J(θ0, θ1)이다. 입력 변수가 2개 이기 때문에 3차원 그래픽으로 나타난다.
+
+- 좌상단부터 보면 임의의 한 점에서 시작하여 J(θ0, θ1)이 가장 작은 점을 찾아야 한다.
+
+- 이때, 그 점 주위의 가장 가파른 점을 선택하여 내려가는데 이 과정을 반복하여 J(θ0, θ1)이 최소인 점을 찾게 되는 것이다.
+
+- 이러한 계산 알고리즘이 Gradient descent algorithm 이다
+
+![](http://cfile1.uf.tistory.com/image/27456233591704950F7737)
+
+Gradient descent algorithm을 계산하는 방법은 minimum을 찾을 때까지 계속 θ0 과 θ1를 업데이트 하는 것이다.
+![](http://cfile4.uf.tistory.com/image/2171E03C5917061517EACE)
+
+여기서 α 는 learning rate이다
+![](http://cfile30.uf.tistory.com/image/2115A1375917072E0EE807)
+
+위 그림은 Gradient descent algorithm 수식이 그래프에서 어떻게 동작하는지를 보여준다. 상단은 α 가 양수일 때이다. α와 기울기가 둘다 양수이므로  θ1이 왼쪽으로 움직인다. 하단은 α 가 음수일 때이다. α
+
+와 기울기가 둘다 음수이므로  θ1이 오른쪽으로 움직인다.
+
+## 4. 합치기 : Gradient descent algorithm + Linear Regression  Model
+
+이제 3장에서 다룬 Gradient descent를 2장의 Linear Regression Model에 적용할 것이다.
+![](http://cfile1.uf.tistory.com/image/263BD5385917082036003E)
+
+위 식을 θ0, θ1에 대해 편미분 을 사용하면 아래 수식이
+
+![](http://cfile22.uf.tistory.com/image/2719A538591708202FC650)
+
+이제 이 식을 사용하여 그래프가 어떻게 바뀌는지를 보면 이번 1,2,3,4 장을 다 이해하는 것이다.
+
+![](http://cfile7.uf.tistory.com/image/2571E03C591709C32C065D)
+![](http://cfile3.uf.tistory.com/image/2102CB34591709702798E8)
+
+왼쪽이 hypothesis 그래프이고 오른쪽이  J(θ0, θ1) 그래프 이다.   hθ(x) 그래프는 training data값과 가까워지는 straight function이 되어가고 J(θ0, θ1 ) 는 등고선 안쪽으로 들어가는 모습을 볼 수 있다. (즉 J가 minimize 되고 있다.)
+
+----------------------------------------------
+# [Linear Algebra Review]
+
+## 1. Matrices and Vectors
+
+
+
+
+
+
+
+
+
+
+
+
