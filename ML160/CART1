@@ -1,0 +1,29 @@
+https://ratsgo.github.io/machine%20learning/2017/03/26/tree/
+
+<CART>
+
+decision tree
+반응변수가 질적이다(범주형 변주)
+각 클래스의 분류.
+오차율 : 각 leaf 안에서 발생하는 잘못된 예측치의 개수/ 잘된 예측치의 개수
+
+류트리에서는 관측치가 속하는 영역 내 훈련 관측치들이 가장 많이 포함된 클래스에 속하는지를 예측한다
+binary tree, minimize error in each lieaf
+
+
+장점 : 분석과정이 직관적이고 이해하기 쉽다
+
+
+
+regression tree
+
+반응변수가 양적이다(연속형 변수)
+
+각 그룹의 실제값들 - 평균치 들의 총합
+
+
+
+과적합의 위험성이 존재하기 때문에 Pruning 과정을 거쳐서 의사결정나무를 최적화합니다.
+
+
+
