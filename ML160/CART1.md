@@ -22,6 +22,7 @@ binary tree, minimize error in each lieaf
 따라서 recursive binary split : 나눈다. 어떻게? MSE(min square error)가 최소가 되도록 최적의 split point를 찾는다
   1. For each variable X(k)
         Find optimal cutoff point s,
+            ![](https://user-images.githubusercontent.com/23113869/44571043-a3489a00-a7ba-11e8-97cd-b98ef038c76f.png)
             Min[MSE(y(i)|x(ik)<s)+MSE(y(i)|x(ik)>=s)]
              s
    2.     Choose y yielding lowest MSE
