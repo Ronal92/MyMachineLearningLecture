@@ -9,6 +9,12 @@ https://ratsgo.github.io/machine%20learning/2017/03/26/tree/
 분류트리에서는 관측치가 속하는 영역 내 훈련 관측치들이 가장 많이 포함된 클래스에 속하는지를 예측한다
 binary tree, minimize error in each lieaf
 
+![](https://user-images.githubusercontent.com/23113869/44577602-82894000-a7cc-11e8-9c1d-f826fc7baf98.png)
+
+
+![](https://user-images.githubusercontent.com/23113869/44577603-82894000-a7cc-11e8-93a0-5d77610d355c.jpeg)
+
+
 
 장점 : 분석과정이 직관적이고 이해하기 쉽다
 
