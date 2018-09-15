@@ -35,7 +35,7 @@ recursice binary split 방식이란? MSE(min square error)가 최소가 되도�
 
 문제) x1과 x2를 3개의 그룹으로 나누기 위해 적절한 point t를 찾되 MSE가 최소가 되는 지점을 구하라 : t1, t2
    1. For each variable X(k)
-        Find optimal cutoff point s,
+        Find optimal cutoff point s.
             ![](https://user-images.githubusercontent.com/23113869/44571043-a3489a00-a7ba-11e8-97cd-b98ef038c76f.png)
            
    2.     Choose y yielding lowest MSE
