@@ -13,7 +13,7 @@ https://ratsgo.github.io/machine%20learning/2017/03/26/tree/
 #### classification tree의 분류과정은 아래와 같다.
 ![](https://user-images.githubusercontent.com/23113869/44577602-82894000-a7cc-11e8-9c1d-f826fc7baf98.png)
     (1) Choose j and s to minimize E(R) : 위 그림에서 s를 기준으로 R의 왼쪽 영역과 오른쪽 영역으로 구분된다. 이 때, 각 영역의 Error값이 작아지도록 j와 s를 결정하라는 말!
-    (2) Choose j and s to minimize in R(k) : R(k)는 leaf node이다. leaf node가 나올 때까지 반복해서 j, s를 구하라.
+    (2) Choose j and s to minimize in R(k) : R(k)는 leaf node이다. leaf node가 나올 때까지 반복해서 j, s를 구하라,
     (3) Terminate when there are only pointes < 5 in a subset or
                   when there are only one class in a subset
 
