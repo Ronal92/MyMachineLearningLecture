@@ -2,7 +2,7 @@
 >> 사용합니다. 
 >> 자료출처(https://www.youtube.com/watch?v=frbX2JH-_Aw&index=19&list=PLD0F06AA0D2E8FFBA)
 >>ML(3.5)
-
+>> 주 참고 자료 : (https://cveai.github.io/notes/2018/03/27/mm-ml-3.html)
 
 # ML Basic 
 
