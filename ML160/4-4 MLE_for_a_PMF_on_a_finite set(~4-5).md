@@ -8,10 +8,10 @@ Likelihood를 Bernoulli 분포로 표현하면
  
 y(n)은  각 샘플 데이터들의 확률.
 t(n)은 Posterior로써 0 or 1 값(Label)
-
+![](https://user-images.githubusercontent.com/23113869/47291158-97077e80-d63d-11e8-9c93-8850ec4fdb69.png)
 위 식에 Log를 씌우면  아래와 같은 식이 나온다. 우리는 아래 식을 Maximize해야 한다.
 
- 
+![](https://user-images.githubusercontent.com/23113869/47291160-9838ab80-d63d-11e8-83d6-5d4245464f98.png) 
 
 위 식의 극대값을 찾아야 되므로 미분했을 때, 0이 되는 값을 찾는 방향이 MLE를 구하는 과정이다.
 
